@@ -1,0 +1,248 @@
+/* common*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #229ED9;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+/*home*/
+
+
+}
+.home {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.title1{
+    background-color: #333;
+    color: white;
+    
+}
+.title2{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+.image{
+    width: 300px;
+}
+
+/* aboutme*/
+
+.title2{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    
+}
+.image2{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*contact me */
+
+.contactme {
+    text-align: center;
+    background-color: #333;
+    color: white;
+
+}
+
+.imagecontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 0px; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagecontainer img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+}
+
+.imagecontainer a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 23px; 
+    text-align: center;
+    white-space: nowrap; 
+}
+
+h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+.telegram {
+    background-color: #229ed9;
+    margin-right: 0px;
+    
+}
+
+.instagram {
+    background-color: rgb(189, 93, 58);
+}
+
+.twitter {
+    background-color: #000000;
+    color: white;
+}
+
+.linkedin {
+    background-color: #229ED9;
+}
+
+.facebook {
+    background-color: #229ED9;
+}
+
+/* favourite media */
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    color: #229ED9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/*places want to visit*/
+.title {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+
+.places-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.place-card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position: relative;
+    text-align: center;
+}
+
+.place-card:hover {
+    transform: scale(1.05);
+}
+
+.place-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+.place-info {
+    padding: 15px;
+}
+
+h3 {
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+}
+.tokyoimage{
+    width: 100%;
+}
+.budapestimage{
+    width: 100%;
+}
+.parisimage{
+    width: 100%;
+}
+.singaporeimage{
+    width: 100%;
+}
+.tokyotext{
+    font-size: 1.1em;
+}
+.tokyotext-child{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
