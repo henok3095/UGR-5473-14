@@ -5,6 +5,8 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    
+
 }
 
 header {
@@ -43,6 +45,7 @@ nav a {
 nav a:hover {
     color: #229ED9;
 }
+
 footer {
     background-color: #333;
     color: white;
@@ -58,6 +61,7 @@ footer {
     gap: 20px;
     padding: 20px;
     text-align: center;
+    
 }
 .title1{
     background-color: #333;
@@ -70,7 +74,8 @@ footer {
     text-align: center;
 }
 .image{
-    width: 300px;
+    width: 100%;
+    
 }
 
 /* aboutme*/
@@ -97,9 +102,9 @@ footer {
 }
 
 .imagecontainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 0px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -114,7 +119,7 @@ footer {
 .imagecontainer a {
     text-decoration: none;
     color: #333;
-    margin-left: 23px; 
+    margin-left: 10px; 
     text-align: center;
     white-space: nowrap; 
 }
@@ -123,6 +128,20 @@ h3 {
     text-align: center;
     margin-top: 10px;
 }
+@media screen and (max-width: 768px) {
+    .imagecontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .imagecontainer {
+        justify-content: space-around;
+    }
+}
+
 .telegram {
     background-color: #229ed9;
     margin-right: 0px;
@@ -189,7 +208,7 @@ li {
 
 .places-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
 }
